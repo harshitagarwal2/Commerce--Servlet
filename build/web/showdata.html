@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>DataBase Records</title>
+    </head>
+    <body bgcolor='cornsilk'>
+    <center>
+        <form action='delete_report2' method='post'> 
+            <font color='red' size='10'>RECORD REPORT</font> <br> <br>
+            <table align='center' border='1'>
+                <tr> <td> </td> <td>ID</td> <td>NAME</td> <td>GENDER</td> <td>AGE</td> <td>ADDRESS</td> <td>MTYPE</td> <td>SALARY</td> <td>USERNAME</td> <td>PASSWORD</td> </tr>\n");
+
+                <tr> <td> <input type='checkbox' name='ID' value=" +c.id + "> </td> <td>" + c.id + "</td> <td>c.name</td> <td>c.gender</td> <td>c.age</td> <td>c.addr</td> <td>c.mtype</td> <td>c.salary</td> <td>c.username </td> <td>c.password</td> </tr>
+            </table><br><br>
+            <input type='submit' value='delete'>
+            </form>
+            <br><br><a href='report'>home</a><br><br></center>
+            </body>
+</html>
